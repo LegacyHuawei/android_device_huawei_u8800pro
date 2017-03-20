@@ -62,5 +62,8 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/huawei/u8800pro/bluetooth
 # Kernel
 TARGET_KERNEL_CONFIG := u8800pro_defconfig
 
+# Recovery
+DEVICE_RESOLUTION := 480x800
+
 # Generic flags
 BOARD_USE_LEGACY_SENSORS_FUSION := true
